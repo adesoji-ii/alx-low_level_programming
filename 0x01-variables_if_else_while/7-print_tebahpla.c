@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
-* main - Print single digits numners of base10
-* Return: 0 (Success)
-*/
+ * main - Prints lowercase alphabets in reverse
+ * Return: 0 (Success)
+ */
 
 int main(void)
 {
@@ -11,10 +10,10 @@ int main(void)
 
 	c = 'z';
 	while
-		(C >= 'a'); {
+		(c >= 'a') {
 			putchar(c);
 			c--;
 		}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
-	}
+}
