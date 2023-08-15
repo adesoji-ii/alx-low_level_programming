@@ -3,7 +3,7 @@
 /**
  * _abs - computes the absolute value of an integer
  * @n: the main int to check
- * Retutn: the anbsolute value of nt
+ * Return: the absolute value of n
  */
 
 int _abs(int n)
