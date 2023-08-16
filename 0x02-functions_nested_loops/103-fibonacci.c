@@ -21,7 +21,7 @@ int main(void)
 		{
 			sum = sum + j;
 		}
-		nect = j + k;
+		next = j + k;
 		j = k;
 		k = next;
 	}
