@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rev_string - reverse array
- * @n: pointer to string to be reversed
- * Return: void
+ * rev_string - a function to reverse array
+ * @n: integer parameters
+ * Return: 0
  */
 
 void rev_string(char *n)
@@ -26,13 +26,13 @@ void rev_string(char *n)
 	}
 }
 
- /**
- * infinite_add - add 2 numbers together
- * @n1: text representation of 1st number to add
- * @n2: text representation of 2nd number to add
+/**
+ * infinite_add - a function to addd two numbers
+ * @n1: text representation of first number
+ * @n2: text representation of second number
  * @r: pointer to buffer
  * @size_r: buffer size
- * Return: pointer to the result (r)
+ * Return: pointer to calling function
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
@@ -43,7 +43,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	while (*(n1 + i) != '\0')
 		i++;
 	while (*(n2 + j) != '\0')
-		j--;
+		j++;
 	i--;
 	j--;
 	if (j >= size_r || i >= size_r)
